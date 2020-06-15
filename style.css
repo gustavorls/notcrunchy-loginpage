@@ -1,0 +1,137 @@
+@font-face {
+    font-family: Yanone;
+    src: url(./fonts/Yanone_Kaffeesatz/YanoneKaffeesatz-VariableFont_wght.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Barlow Bold';
+    src: url(./fonts/Barlow/Barlow-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Barlow Italic';
+    src: url(./fonts/Barlow/Barlow-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'Barlow Italyc';
+    src: url(./fonts/Barlow/Barlow-BoldItalic.ttf);
+}
+
+body {
+    background-color: #ea6173;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: Yanone;
+    font-size: 50px;
+    text-align: center;
+    padding: 0px 40px;
+}
+.caixaLogin {
+    background-color: #85dfea;
+    width: 300px;
+    padding: 30px;
+    position: relative;
+}
+
+.imgUser {
+    width: 130px;
+    align-self: center;
+    padding-bottom: 25px;
+    margin: auto;
+}
+
+.imgUser img {
+    width: 100%;
+}
+
+.caixaLogin h2 {
+    text-align: center;
+    letter-spacing: 0.5px;
+    margin: 10px 0px 30px;
+    font-family: 'Barlow Italic';
+}
+
+.caixaLogin .campo input {
+    width: 100%;
+    padding: 10px;
+    font-size: 13px;
+    background: transparent;
+    letter-spacing: 0.5px;
+    border: none;
+    border-bottom: 1px solid #feef00;
+    margin-bottom: 22px;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.caixaLogin .campo {
+    position: relative;
+}
+
+.caixaLogin .campo label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2px 3px;
+    font-family: Yanone;
+    letter-spacing: 0.5px;
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+.caixaLogin .campo input:focus~label,
+.caixaLogin .campo input:valid~label {
+    top: -15px;
+    left: 0;
+    text-shadow: 1.8px 1.8px #feef00;
+}
+
+.checkR {
+    font-family: Yanone;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+.caixaLogin button {
+    margin-top: 15px;
+    width: 100%;
+    height: 35px;
+    border: none;
+    outline: none;
+    color: black;
+    font-family: 'Barlow Italyc';
+    background-color: #feef00;
+    cursor: pointer;
+}
+
+#cadastro {
+    font-size: 15px;
+    letter-spacing: 0.4px;
+    font-weight: bold;
+    font-family: 'Barlow Italic';
+    text-align: center;
+}
+
+#cadastro a {
+    text-decoration: none;
+    color: black;
+}
+
+#rodape img {
+    width: 460px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    box-align: center;
+}
