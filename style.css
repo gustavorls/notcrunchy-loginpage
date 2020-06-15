@@ -95,6 +95,7 @@ h1 {
     outline: none;
     color: black;
     font-family: Barlow;
+    font-style: bold;
     background-color: #feef00;
     cursor: pointer;
 }
@@ -103,6 +104,8 @@ h1 {
     font-size: 15px;
     letter-spacing: 0.4px;
     font-weight: bold;
+    left: 0;
+    right: 0;
     text-align: center;
 }
 
