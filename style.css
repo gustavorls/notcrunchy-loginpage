@@ -10,8 +10,8 @@
 }
 
 @font-face {
-    font-family: 'Barlow Italic';
-    src: url(./fonts/Barlow-Italic.ttf);
+    font-family: 'Barlow BoldI';
+    src: url(./fonts/Barlow-BoldItalic.ttf);
 }
 
 body {
@@ -47,13 +47,6 @@ h1 {
 
 .imgUser img {
     width: 100%;
-}
-
-.caixaLogin h2 {
-    text-align: center;
-    letter-spacing: 0.5px;
-    margin: 10px 0px 30px;
-    font-family: 'Barlow Italic';
 }
 
 .caixaLogin .campo input {
@@ -106,16 +99,16 @@ h1 {
     border: none;
     outline: none;
     color: black;
-    font-family: 'Barlow Italic';
+    font-family: 'Barlow BoldI';
     background-color: #feef00;
     cursor: pointer;
 }
 
-#cadastro a {
+#cadastro {
     font-size: 15px;
     letter-spacing: 0.4px;
     font-weight: bold;
-    font-family: 'Barlow Italic';
+    font-family: 'Barlow BoldI';
     text-align: center;
 }
 
