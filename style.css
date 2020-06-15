@@ -113,7 +113,8 @@ h1 {
     color: black;
 }
 
-a:hover #cadastro a {
+#cadastro a:hover {
+    transition: 0.2s;
     color: #ea6173;
 }
 
