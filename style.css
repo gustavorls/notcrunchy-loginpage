@@ -110,6 +110,7 @@ h1 {
 #cadastro a {
     font-family: Barlow;
     text-decoration: none;
+    color: black;
 }
 
 #cadastro a:hover {
