@@ -5,18 +5,8 @@
 }
 
 @font-face {
-    font-family: 'Barlow Bold';
-    src: url(./fonts/Barlow-Bold.ttf);
-}
-
-@font-face {
-    font-family: 'Barlow BoldI';
+    font-family: Barlow;
     src: url(./fonts/Barlow-BoldItalic.ttf);
-}
-
-@font-face {
-    font-family: 'Barlow Italic';
-    src: url(./fonts/Barlow-Italic.ttf)
 }
 
 body {
@@ -104,7 +94,7 @@ h1 {
     border: none;
     outline: none;
     color: black;
-    font-family: 'Barlow BoldI';
+    font-family: Barlow;
     background-color: #feef00;
     cursor: pointer;
 }
@@ -113,11 +103,11 @@ h1 {
     font-size: 15px;
     letter-spacing: 0.4px;
     font-weight: bold;
-    font-family: 'Barlow BoldI';
     text-align: center;
 }
 
 #cadastro a {
+    font-family: Barlow;
     text-decoration: none;
     color: black;
 }
