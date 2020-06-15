@@ -115,7 +115,7 @@ h1 {
 
 #cadastro a:hover {
     transition: 0.2s;
-    color: #ea6173;
+    background-color: #ea6173;
 }
 
 #rodape img {
