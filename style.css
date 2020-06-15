@@ -14,11 +14,6 @@
     src: url(./fonts/Barlow-Italic.ttf);
 }
 
-@font-face {
-    font-family: 'Barlow Italyc';
-    src: url(./fonts/Barlow-BoldItalic.ttf);
-}
-
 body {
     background-color: #ea6173;
     height: 100vh;
@@ -111,7 +106,7 @@ h1 {
     border: none;
     outline: none;
     color: black;
-    font-family: 'Barlow Italyc';
+    font-family: 'Barlow Italic';
     background-color: #feef00;
     cursor: pointer;
 }
