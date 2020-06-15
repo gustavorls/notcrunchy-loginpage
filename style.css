@@ -111,8 +111,8 @@ h1 {
     font-family: Barlow;
     text-decoration: none;
     color: black;
-    transition: 0.2s;
     padding: 5px;
+    transition: 0.2s;
 }
 
 #cadastro a:hover {
