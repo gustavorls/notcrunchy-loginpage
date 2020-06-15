@@ -111,11 +111,11 @@ h1 {
     font-family: Barlow;
     text-decoration: none;
     color: black;
-}
-
-a:hover {
     transition: 0.2s;
     padding: 5px;
+}
+
+#cadastro a:hover {
     background-color: #ea6173;
 }
 
