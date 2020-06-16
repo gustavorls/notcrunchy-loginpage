@@ -76,8 +76,8 @@ h1 {
 
 .caixaLogin .campo input:focus~label,
 .caixaLogin .campo input:valid~label {
-    left: 0;
     top: -15px;
+    left: 0;
     text-shadow: 1.8px 1.8px #feef00;
 }
 
