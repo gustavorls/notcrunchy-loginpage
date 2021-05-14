@@ -1,9 +1,9 @@
-Eu não sei o que escrever num arquivo README.
+Eu ainda não sei o que escrever num arquivo README.
 
 Mas vamo tentar né...
 
 Eu decidi criar essa página de login pra melhorar minhas habilidades de programação.
-Eu tenho um projeto em mente, que um simples, mas bonito, blog, só que no momento eu não tenho experiência o suficiente pra isso, então eu decidi começar com algo fácil pra poder treinar e aprender coisa nova.
+Eu tenho um projeto em mente, que é um simples, mas bonito, blog, só que no momento eu não tenho experiência o suficiente pra isso, então eu decidi começar com algo fácil pra poder treinar e aprender coisa nova.
 
 ---------
 
